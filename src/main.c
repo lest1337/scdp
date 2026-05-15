@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include "cli.h"
 
-int main(int argc, char** argv){
-    printf("Hello, from scdp!\n");
-    return 0;
+int main(int argc, char **argv) {
+    return cli_run(argc, argv);
 }
